@@ -1,0 +1,565 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Yole — Diseñadora Digital | Portafolio</title>
+  <meta name="description" content="Portafolio de Yole, diseñadora digital especializada en UX/UI, branding, diseño web y productos digitales. Basada en Santa Marta, Colombia." />
+  <meta name="keywords" content="diseño digital, UX/UI, branding, diseño web, portafolio, Santa Marta" />
+  <meta name="author" content="Yole" />
+  <meta property="og:title" content="Yole — Diseñadora Digital" />
+  <meta property="og:description" content="Portafolio de diseño digital: UX/UI, branding, web y productos digitales." />
+  <meta property="og:type" content="website" />
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- ===== NAVBAR ===== -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-container">
+      <a href="#hero" class="nav-logo">
+        <span class="logo-y">Y</span><span class="logo-rest">ole</span><span class="logo-dot">.</span>
+      </a>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#about" class="nav-link" data-section="about">Sobre mí</a></li>
+        <li><a href="#portfolio" class="nav-link" data-section="portfolio">Portafolio</a></li>
+        <li><a href="#services" class="nav-link" data-section="services">Servicios</a></li>
+        <li><a href="#testimonials" class="nav-link" data-section="testimonials">Testimonios</a></li>
+        <li><a href="#contact" class="nav-link nav-link--cta" data-section="contact">Contacto</a></li>
+      </ul>
+      <button class="nav-toggle" id="navToggle" aria-label="Abrir menú">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- ===== HERO ===== -->
+  <section class="hero" id="hero">
+    <div class="hero-bg-shapes">
+      <div class="hero-shape hero-shape--1"></div>
+      <div class="hero-shape hero-shape--2"></div>
+      <div class="hero-shape hero-shape--3"></div>
+    </div>
+    <div class="hero-content">
+      <p class="hero-greeting reveal-up">Hola, soy Yole ✦</p>
+      <h1 class="hero-title">
+        <span class="hero-line reveal-up" style="--delay: 0.1s">Diseñadora</span>
+        <span class="hero-line hero-line--accent reveal-up" style="--delay: 0.25s">Digital</span>
+        <span class="hero-line reveal-up" style="--delay: 0.4s">& Creativa</span>
+      </h1>
+      <p class="hero-tagline reveal-up" style="--delay: 0.55s">Creo experiencias digitales que conectan marcas con personas.</p>
+      <div class="hero-actions reveal-up" style="--delay: 0.7s">
+        <a href="#portfolio" class="btn btn--primary">
+          <span>Ver proyectos</span>
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 17L17 7M17 7H7M17 7V17"/></svg>
+        </a>
+        <a href="#contact" class="btn btn--ghost">Hablemos</a>
+      </div>
+    </div>
+    <div class="hero-scroll-indicator reveal-up" style="--delay: 1s">
+      <div class="scroll-line"></div>
+      <span>Scroll</span>
+    </div>
+  </section>
+
+  <!-- ===== ABOUT ===== -->
+  <section class="about" id="about">
+    <div class="container">
+      <div class="section-label reveal-up">
+        <span class="label-number">01</span>
+        <span class="label-text">Sobre mí</span>
+      </div>
+      <div class="about-grid">
+        <div class="about-visual reveal-up">
+          <div class="about-image-frame">
+            <div class="about-image-placeholder">
+              <!-- SVG avatar placeholder -->
+              <svg viewBox="0 0 400 500" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <rect width="400" height="500" rx="20" fill="url(#aboutGrad)"/>
+                <circle cx="200" cy="180" r="70" fill="rgba(255,255,255,0.2)"/>
+                <path d="M120 380 C120 310, 280 310, 280 380" fill="rgba(255,255,255,0.15)"/>
+                <circle cx="310" cy="80" r="30" fill="rgba(124,58,237,0.3)"/>
+                <circle cx="90" cy="420" r="20" fill="rgba(6,182,212,0.3)"/>
+                <defs>
+                  <linearGradient id="aboutGrad" x1="0" y1="0" x2="400" y2="500">
+                    <stop offset="0%" stop-color="#EAE3D9"/>
+                    <stop offset="100%" stop-color="#CFB997"/>
+                  </linearGradient>
+                </defs>
+              </svg>
+            </div>
+            <div class="about-image-badge">
+              <span class="badge-icon">🤿</span>
+              <span class="badge-text">Rescue Diver</span>
+            </div>
+          </div>
+        </div>
+        <div class="about-content">
+          <h2 class="about-title reveal-up">
+            Donde el mar se encuentra<br/>con el <em>diseño digital</em>
+          </h2>
+          <div class="about-bio reveal-up">
+            <p>Soy Yole, una diseñadora digital en formación que vive en Santa Marta, una ciudad donde el mar no es solo paisaje, sino parte de mi identidad. Estudio Diseño Digital en la universidad, un camino que elegí porque desde pequeña descubrí que era creativa, especialmente cuando el arte aparecía en el colegio como un espacio para experimentar, dibujar y crear.</p>
+            <p>Me apasiona el diseño porque entiendo que no es solo estética, sino comunicación, estrategia y experiencia. Disfruto pensar conceptos, desarrollar ideas y convertirlas en algo visual que conecte con las personas.</p>
+            <p>Además del diseño, el mar ocupa un lugar fundamental en mi vida. Soy buzo certificada (Open Water, Advanced y Rescue Diver), y el mundo submarino me ha enseñado disciplina, respeto por la naturaleza y sensibilidad frente al entorno.</p>
+          </div>
+          <div class="about-skills reveal-up">
+            <h3 class="skills-title">Herramientas & Habilidades</h3>
+            <div class="skills-grid">
+              <div class="skill-chip">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="2"/><path d="M9 3v18M3 9h18"/></svg>
+                Figma
+              </div>
+              <div class="skill-chip">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/></svg>
+                Adobe XD
+              </div>
+              <div class="skill-chip">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M8 14s1.5 2 4 2 4-2 4-2"/><line x1="9" y1="9" x2="9.01" y2="9"/><line x1="15" y1="9" x2="15.01" y2="9"/></svg>
+                Illustrator
+              </div>
+              <div class="skill-chip">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="20" height="20" rx="5"/><path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37z"/></svg>
+                Photoshop
+              </div>
+              <div class="skill-chip">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="12 2 22 8.5 22 15.5 12 22 2 15.5 2 8.5 12 2"/></svg>
+                After Effects
+              </div>
+              <div class="skill-chip">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg>
+                HTML / CSS
+              </div>
+              <div class="skill-chip">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M2 3h6a4 4 0 014 4v14a3 3 0 00-3-3H2z"/><path d="M22 3h-6a4 4 0 00-4 4v14a3 3 0 013-3h7z"/></svg>
+                UX Research
+              </div>
+              <div class="skill-chip">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 16V8a2 2 0 00-1-1.73l-7-4a2 2 0 00-2 0l-7 4A2 2 0 002 8v8a2 2 0 001 1.73l7 4a2 2 0 002 0l7-4A2 2 0 0022 16z"/></svg>
+                Prototyping
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== PORTFOLIO ===== -->
+  <section class="portfolio" id="portfolio">
+    <div class="container">
+      <div class="section-label reveal-up">
+        <span class="label-number">02</span>
+        <span class="label-text">Portafolio</span>
+      </div>
+      <div class="portfolio-header reveal-up">
+        <h2 class="section-title">Proyectos <em>seleccionados</em></h2>
+        <div class="portfolio-filters">
+          <button class="filter-btn active" data-filter="all">Todos</button>
+          <button class="filter-btn" data-filter="uxui">UX/UI</button>
+          <button class="filter-btn" data-filter="branding">Branding</button>
+          <button class="filter-btn" data-filter="motion">Motion</button>
+          <button class="filter-btn" data-filter="web">Web</button>
+        </div>
+      </div>
+      <div class="portfolio-grid" id="portfolioGrid">
+
+        <!-- Project 1 -->
+        <article class="project-card reveal-up" data-category="uxui">
+          <div class="project-thumbnail">
+            <svg viewBox="0 0 600 450" fill="none" xmlns="http://www.w3.org/2000/svg" class="project-svg">
+              <rect width="600" height="450" fill="url(#p1)"/>
+              <rect x="150" y="60" width="300" height="330" rx="30" fill="rgba(255,255,255,0.25)"/>
+              <rect x="175" y="90" width="250" height="30" rx="8" fill="rgba(255,255,255,0.3)"/>
+              <rect x="175" y="140" width="250" height="180" rx="12" fill="rgba(255,255,255,0.2)"/>
+              <circle cx="300" cy="360" r="15" fill="rgba(255,255,255,0.3)"/>
+              <defs><linearGradient id="p1" x1="0" y1="0" x2="600" y2="450"><stop offset="0%" stop-color="#7C3AED"/><stop offset="100%" stop-color="#06B6D4"/></linearGradient></defs>
+            </svg>
+            <div class="project-overlay">
+              <a href="#" class="project-cta">
+                <span>Ver proyecto</span>
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 17L17 7M17 7H7M17 7V17"/></svg>
+              </a>
+            </div>
+          </div>
+          <div class="project-info">
+            <span class="project-category">UX/UI</span>
+            <h3 class="project-title">Coral App</h3>
+            <p class="project-desc">App de monitoreo de arrecifes para buzos y biólogos marinos</p>
+          </div>
+        </article>
+
+        <!-- Project 2 -->
+        <article class="project-card reveal-up" data-category="branding" style="--delay: 0.1s">
+          <div class="project-thumbnail">
+            <svg viewBox="0 0 600 450" fill="none" xmlns="http://www.w3.org/2000/svg" class="project-svg">
+              <rect width="600" height="450" fill="url(#p2)"/>
+              <rect x="180" y="130" width="240" height="190" rx="10" fill="rgba(255,255,255,0.2)" transform="rotate(-5 300 225)"/>
+              <rect x="200" y="150" width="200" height="120" rx="5" fill="rgba(255,255,255,0.15)" transform="rotate(3 300 210)"/>
+              <circle cx="300" cy="200" r="40" fill="rgba(255,255,255,0.25)"/>
+              <defs><linearGradient id="p2" x1="0" y1="0" x2="600" y2="450"><stop offset="0%" stop-color="#111111"/><stop offset="100%" stop-color="#4a3a6b"/></linearGradient></defs>
+            </svg>
+            <div class="project-overlay">
+              <a href="#" class="project-cta">
+                <span>Ver proyecto</span>
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 17L17 7M17 7H7M17 7V17"/></svg>
+              </a>
+            </div>
+          </div>
+          <div class="project-info">
+            <span class="project-category">Branding</span>
+            <h3 class="project-title">Marea Studio</h3>
+            <p class="project-desc">Identidad visual para estudio de diseño costero</p>
+          </div>
+        </article>
+
+        <!-- Project 3 -->
+        <article class="project-card reveal-up" data-category="web" style="--delay: 0.2s">
+          <div class="project-thumbnail">
+            <svg viewBox="0 0 600 450" fill="none" xmlns="http://www.w3.org/2000/svg" class="project-svg">
+              <rect width="600" height="450" fill="url(#p3)"/>
+              <rect x="80" y="70" width="440" height="310" rx="15" fill="rgba(255,255,255,0.15)"/>
+              <rect x="80" y="70" width="440" height="40" rx="15" fill="rgba(255,255,255,0.1)"/>
+              <circle cx="110" cy="90" r="6" fill="rgba(255,255,255,0.3)"/>
+              <circle cx="130" cy="90" r="6" fill="rgba(255,255,255,0.3)"/>
+              <circle cx="150" cy="90" r="6" fill="rgba(255,255,255,0.3)"/>
+              <rect x="110" y="130" width="180" height="20" rx="5" fill="rgba(255,255,255,0.2)"/>
+              <rect x="110" y="165" width="120" height="12" rx="3" fill="rgba(255,255,255,0.15)"/>
+              <rect x="110" y="200" width="380" height="150" rx="10" fill="rgba(255,255,255,0.1)"/>
+              <defs><linearGradient id="p3" x1="0" y1="0" x2="600" y2="450"><stop offset="0%" stop-color="#06B6D4"/><stop offset="100%" stop-color="#84CC16"/></linearGradient></defs>
+            </svg>
+            <div class="project-overlay">
+              <a href="#" class="project-cta">
+                <span>Ver proyecto</span>
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 17L17 7M17 7H7M17 7V17"/></svg>
+              </a>
+            </div>
+          </div>
+          <div class="project-info">
+            <span class="project-category">Web</span>
+            <h3 class="project-title">EcoDive</h3>
+            <p class="project-desc">Landing page para escuela de buceo sostenible</p>
+          </div>
+        </article>
+
+        <!-- Project 4 -->
+        <article class="project-card reveal-up" data-category="motion">
+          <div class="project-thumbnail">
+            <svg viewBox="0 0 600 450" fill="none" xmlns="http://www.w3.org/2000/svg" class="project-svg">
+              <rect width="600" height="450" fill="url(#p4)"/>
+              <polygon points="250,130 250,320 400,225" fill="rgba(255,255,255,0.25)"/>
+              <circle cx="300" cy="225" r="100" stroke="rgba(255,255,255,0.15)" stroke-width="3" fill="none"/>
+              <circle cx="300" cy="225" r="130" stroke="rgba(255,255,255,0.08)" stroke-width="2" fill="none"/>
+              <defs><linearGradient id="p4" x1="0" y1="0" x2="600" y2="450"><stop offset="0%" stop-color="#EF4444"/><stop offset="100%" stop-color="#7C3AED"/></linearGradient></defs>
+            </svg>
+            <div class="project-overlay">
+              <a href="#" class="project-cta">
+                <span>Ver proyecto</span>
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 17L17 7M17 7H7M17 7V17"/></svg>
+              </a>
+            </div>
+          </div>
+          <div class="project-info">
+            <span class="project-category">Motion</span>
+            <h3 class="project-title">Flow Reel</h3>
+            <p class="project-desc">Motion graphics y animaciones para redes sociales</p>
+          </div>
+        </article>
+
+        <!-- Project 5 -->
+        <article class="project-card reveal-up" data-category="uxui" style="--delay: 0.1s">
+          <div class="project-thumbnail">
+            <svg viewBox="0 0 600 450" fill="none" xmlns="http://www.w3.org/2000/svg" class="project-svg">
+              <rect width="600" height="450" fill="url(#p5)"/>
+              <rect x="100" y="80" width="170" height="290" rx="20" fill="rgba(255,255,255,0.2)"/>
+              <rect x="330" y="80" width="170" height="290" rx="20" fill="rgba(255,255,255,0.15)"/>
+              <rect x="120" y="120" width="130" height="20" rx="5" fill="rgba(255,255,255,0.25)"/>
+              <rect x="120" y="155" width="90" height="12" rx="3" fill="rgba(255,255,255,0.15)"/>
+              <rect x="120" y="185" width="130" height="100" rx="10" fill="rgba(255,255,255,0.12)"/>
+              <rect x="350" y="120" width="130" height="20" rx="5" fill="rgba(255,255,255,0.2)"/>
+              <rect x="350" y="155" width="90" height="12" rx="3" fill="rgba(255,255,255,0.12)"/>
+              <defs><linearGradient id="p5" x1="0" y1="0" x2="600" y2="450"><stop offset="0%" stop-color="#F59E0B"/><stop offset="100%" stop-color="#7C3AED"/></linearGradient></defs>
+            </svg>
+            <div class="project-overlay">
+              <a href="#" class="project-cta">
+                <span>Ver proyecto</span>
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 17L17 7M17 7H7M17 7V17"/></svg>
+              </a>
+            </div>
+          </div>
+          <div class="project-info">
+            <span class="project-category">UX/UI</span>
+            <h3 class="project-title">Samario Market</h3>
+            <p class="project-desc">Marketplace de productos artesanales locales</p>
+          </div>
+        </article>
+
+        <!-- Project 6 -->
+        <article class="project-card reveal-up" data-category="branding" style="--delay: 0.2s">
+          <div class="project-thumbnail">
+            <svg viewBox="0 0 600 450" fill="none" xmlns="http://www.w3.org/2000/svg" class="project-svg">
+              <rect width="600" height="450" fill="url(#p6)"/>
+              <rect x="150" y="100" width="300" height="200" rx="8" fill="rgba(255,255,255,0.18)" transform="rotate(-3 300 200)"/>
+              <rect x="170" y="250" width="260" height="100" rx="5" fill="rgba(255,255,255,0.12)" transform="rotate(2 300 300)"/>
+              <circle cx="220" cy="180" r="30" fill="rgba(255,255,255,0.2)"/>
+              <rect x="270" y="165" width="150" height="10" rx="3" fill="rgba(255,255,255,0.2)"/>
+              <rect x="270" y="185" width="100" height="8" rx="2" fill="rgba(255,255,255,0.12)"/>
+              <defs><linearGradient id="p6" x1="0" y1="0" x2="600" y2="450"><stop offset="0%" stop-color="#CFB997"/><stop offset="100%" stop-color="#8B6F47"/></linearGradient></defs>
+            </svg>
+            <div class="project-overlay">
+              <a href="#" class="project-cta">
+                <span>Ver proyecto</span>
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 17L17 7M17 7H7M17 7V17"/></svg>
+              </a>
+            </div>
+          </div>
+          <div class="project-info">
+            <span class="project-category">Branding</span>
+            <h3 class="project-title">Café Tayrona</h3>
+            <p class="project-desc">Branding completo para marca de café de origen</p>
+          </div>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== SERVICES ===== -->
+  <section class="services" id="services">
+    <div class="container">
+      <div class="section-label reveal-up">
+        <span class="label-number">03</span>
+        <span class="label-text">Servicios</span>
+      </div>
+      <h2 class="section-title reveal-up">Lo que <em>puedo hacer</em> por ti</h2>
+      <div class="services-grid">
+
+        <div class="service-card reveal-up">
+          <div class="service-icon">
+            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+              <rect x="2" y="3" width="20" height="14" rx="2"/>
+              <path d="M8 21h8M12 17v4"/>
+            </svg>
+          </div>
+          <h3 class="service-title">Diseño Web</h3>
+          <p class="service-desc">Sitios web modernos, responsivos y optimizados. Desde landing pages hasta plataformas complejas con foco en la experiencia del usuario.</p>
+          <ul class="service-list">
+            <li>Landing pages</li>
+            <li>Sitios corporativos</li>
+            <li>E-commerce</li>
+          </ul>
+        </div>
+
+        <div class="service-card reveal-up" style="--delay: 0.1s">
+          <div class="service-icon service-icon--accent2">
+            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+              <rect x="5" y="2" width="14" height="20" rx="2"/>
+              <line x1="12" y1="18" x2="12.01" y2="18"/>
+            </svg>
+          </div>
+          <h3 class="service-title">UX/UI Design</h3>
+          <p class="service-desc">Interfaces intuitivas y atractivas para apps móviles y web. Desde la investigación hasta el prototipo interactivo.</p>
+          <ul class="service-list">
+            <li>User Research</li>
+            <li>Wireframing</li>
+            <li>Prototipos interactivos</li>
+          </ul>
+        </div>
+
+        <div class="service-card reveal-up" style="--delay: 0.2s">
+          <div class="service-icon service-icon--accent3">
+            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+              <circle cx="12" cy="12" r="10"/>
+              <path d="M12 6v6l4 2"/>
+            </svg>
+          </div>
+          <h3 class="service-title">Branding</h3>
+          <p class="service-desc">Identidades visuales memorables que comunican la esencia de tu marca. Logo, paleta, tipografía y guía de estilo completa.</p>
+          <ul class="service-list">
+            <li>Identidad visual</li>
+            <li>Brand guidelines</li>
+            <li>Papelería corporativa</li>
+          </ul>
+        </div>
+
+        <div class="service-card reveal-up" style="--delay: 0.3s">
+          <div class="service-icon service-icon--accent4">
+            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+              <polygon points="23 7 16 12 23 17 23 7"/>
+              <rect x="1" y="5" width="15" height="14" rx="2"/>
+            </svg>
+          </div>
+          <h3 class="service-title">Motion Design</h3>
+          <p class="service-desc">Animaciones y motion graphics que dan vida a las marcas. Contenido para redes sociales, presentaciones y productos digitales.</p>
+          <ul class="service-list">
+            <li>Micro-animaciones UI</li>
+            <li>Social media content</li>
+            <li>Explainer videos</li>
+          </ul>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== TESTIMONIALS ===== -->
+  <section class="testimonials" id="testimonials">
+    <div class="container">
+      <div class="section-label reveal-up">
+        <span class="label-number">04</span>
+        <span class="label-text">Testimonios</span>
+      </div>
+      <h2 class="section-title reveal-up">Lo que dicen <em>mis clientes</em></h2>
+      <div class="testimonials-grid">
+
+        <div class="testimonial-card reveal-up">
+          <div class="testimonial-quote">
+            <svg width="32" height="32" viewBox="0 0 24 24" fill="currentColor" opacity="0.15"><path d="M14.017 21v-7.391c0-5.704 3.731-9.57 8.983-10.609l.995 2.151c-2.432.917-3.995 3.638-3.995 5.849h4v10h-9.983zm-14.017 0v-7.391c0-5.704 3.748-9.57 9-10.609l.996 2.151c-2.433.917-3.996 3.638-3.996 5.849h3.983v10h-9.983z"/></svg>
+          </div>
+          <p class="testimonial-text">"Yole transformó nuestra visión en una identidad visual que superó todas las expectativas. Su sensibilidad creativa y atención al detalle hacen que cada proyecto sea único."</p>
+          <div class="testimonial-author">
+            <div class="author-avatar">
+              <svg viewBox="0 0 40 40" fill="none"><circle cx="20" cy="20" r="20" fill="#7C3AED" opacity="0.15"/><circle cx="20" cy="16" r="7" fill="#7C3AED" opacity="0.25"/><path d="M8 36c0-6.627 5.373-12 12-12s12 5.373 12 12" fill="#7C3AED" opacity="0.2"/></svg>
+            </div>
+            <div class="author-info">
+              <span class="author-name">María Fernanda López</span>
+              <span class="author-role">CEO, Marea Studio</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="testimonial-card reveal-up" style="--delay: 0.1s">
+          <div class="testimonial-quote">
+            <svg width="32" height="32" viewBox="0 0 24 24" fill="currentColor" opacity="0.15"><path d="M14.017 21v-7.391c0-5.704 3.731-9.57 8.983-10.609l.995 2.151c-2.432.917-3.995 3.638-3.995 5.849h4v10h-9.983zm-14.017 0v-7.391c0-5.704 3.748-9.57 9-10.609l.996 2.151c-2.433.917-3.996 3.638-3.996 5.849h3.983v10h-9.983z"/></svg>
+          </div>
+          <p class="testimonial-text">"Trabajar con Yole fue increíble. Entendió perfectamente la esencia de nuestra marca de café y creó un branding que refleja nuestras raíces y pasión por el producto."</p>
+          <div class="testimonial-author">
+            <div class="author-avatar">
+              <svg viewBox="0 0 40 40" fill="none"><circle cx="20" cy="20" r="20" fill="#06B6D4" opacity="0.15"/><circle cx="20" cy="16" r="7" fill="#06B6D4" opacity="0.25"/><path d="M8 36c0-6.627 5.373-12 12-12s12 5.373 12 12" fill="#06B6D4" opacity="0.2"/></svg>
+            </div>
+            <div class="author-info">
+              <span class="author-name">Andrés Guerrero</span>
+              <span class="author-role">Fundador, Café Tayrona</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="testimonial-card reveal-up" style="--delay: 0.2s">
+          <div class="testimonial-quote">
+            <svg width="32" height="32" viewBox="0 0 24 24" fill="currentColor" opacity="0.15"><path d="M14.017 21v-7.391c0-5.704 3.731-9.57 8.983-10.609l.995 2.151c-2.432.917-3.995 3.638-3.995 5.849h4v10h-9.983zm-14.017 0v-7.391c0-5.704 3.748-9.57 9-10.609l.996 2.151c-2.433.917-3.996 3.638-3.996 5.849h3.983v10h-9.983z"/></svg>
+          </div>
+          <p class="testimonial-text">"La app que diseñó Yole para nuestro proyecto de conservación marina es intuitiva y hermosa. Logró traducir datos complejos en una interfaz que cualquier buzo puede usar."</p>
+          <div class="testimonial-author">
+            <div class="author-avatar">
+              <svg viewBox="0 0 40 40" fill="none"><circle cx="20" cy="20" r="20" fill="#84CC16" opacity="0.15"/><circle cx="20" cy="16" r="7" fill="#84CC16" opacity="0.25"/><path d="M8 36c0-6.627 5.373-12 12-12s12 5.373 12 12" fill="#84CC16" opacity="0.2"/></svg>
+            </div>
+            <div class="author-info">
+              <span class="author-name">Carolina Martínez</span>
+              <span class="author-role">Directora, Fundación Coral Vivo</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== CONTACT ===== -->
+  <section class="contact" id="contact">
+    <div class="container">
+      <div class="section-label reveal-up">
+        <span class="label-number">05</span>
+        <span class="label-text">Contacto</span>
+      </div>
+      <div class="contact-grid">
+        <div class="contact-info reveal-up">
+          <h2 class="section-title">¿Tienes un proyecto<br/>en <em>mente</em>?</h2>
+          <p class="contact-desc">Estoy siempre abierta a nuevas oportunidades, colaboraciones creativas y proyectos interesantes. ¡Hablemos!</p>
+          <div class="contact-details">
+            <a href="mailto:hola@yole.design" class="contact-link">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="M22 4l-10 8L2 4"/></svg>
+              hola@yole.design
+            </a>
+            <a href="#" class="contact-link">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
+              Santa Marta, Colombia
+            </a>
+          </div>
+          <div class="social-links">
+            <!-- Behance -->
+            <a href="#" class="social-link" aria-label="Behance">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor"><path d="M22 7h-7V5h7v2zm1.726 10c-.442 1.297-2.029 3-5.101 3-3.074 0-5.564-1.729-5.564-5.675 0-3.91 2.325-5.92 5.466-5.92 3.082 0 4.964 1.782 5.375 4.426.078.506.109 1.188.095 2.14H15.97c.13 3.211 3.483 3.312 4.588 2.029h3.168zm-7.686-4h4.965c-.105-1.547-1.136-2.219-2.477-2.219-1.466 0-2.277.768-2.488 2.219zm-9.574 6.988H0V5.021h6.953c5.476.081 5.58 5.444 2.72 6.906 3.461 1.26 3.577 6.053-2.207 7.061zM2.914 11.01h3.7c3.752 0 3.631-4.463.143-4.463H2.914v4.463zm0 6.777h4.011c4.24 0 4.109-5.055-.143-5.055H2.914v5.055z"/></svg>
+            </a>
+            <!-- Dribbble -->
+            <a href="#" class="social-link" aria-label="Dribbble">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="12" cy="12" r="10"/><path d="M8.56 2.75c4.37 6.03 6.02 9.42 8.03 17.72m2.54-15.38c-3.72 4.35-8.94 5.66-16.88 5.85m19.5 1.9c-3.5-.93-6.63-.82-8.94 0-2.58.92-5.01 2.86-7.44 6.32"/></svg>
+            </a>
+            <!-- Instagram -->
+            <a href="#" class="social-link" aria-label="Instagram">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="2" y="2" width="20" height="20" rx="5"/><circle cx="12" cy="12" r="5"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg>
+            </a>
+            <!-- LinkedIn -->
+            <a href="#" class="social-link" aria-label="LinkedIn">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg>
+            </a>
+          </div>
+        </div>
+        <form class="contact-form reveal-up" id="contactForm" style="--delay: 0.15s">
+          <div class="form-group">
+            <label for="formName" class="form-label">Nombre</label>
+            <input type="text" id="formName" class="form-input" placeholder="Tu nombre completo" required />
+          </div>
+          <div class="form-group">
+            <label for="formEmail" class="form-label">Email</label>
+            <input type="email" id="formEmail" class="form-input" placeholder="tu@email.com" required />
+          </div>
+          <div class="form-group">
+            <label for="formSubject" class="form-label">Asunto</label>
+            <input type="text" id="formSubject" class="form-input" placeholder="¿En qué puedo ayudarte?" />
+          </div>
+          <div class="form-group">
+            <label for="formMessage" class="form-label">Mensaje</label>
+            <textarea id="formMessage" class="form-input form-textarea" placeholder="Cuéntame sobre tu proyecto..." rows="5" required></textarea>
+          </div>
+          <button type="submit" class="btn btn--primary btn--full">
+            <span>Enviar mensaje</span>
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="22" y1="2" x2="11" y2="13"/><polygon points="22 2 15 22 11 13 2 9 22 2"/></svg>
+          </button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-brand">
+          <a href="#hero" class="nav-logo">
+            <span class="logo-y">Y</span><span class="logo-rest">ole</span><span class="logo-dot">.</span>
+          </a>
+          <p class="footer-tagline">Diseñando experiencias<br/>que conectan.</p>
+        </div>
+        <div class="footer-nav">
+          <a href="#about">Sobre mí</a>
+          <a href="#portfolio">Portafolio</a>
+          <a href="#services">Servicios</a>
+          <a href="#contact">Contacto</a>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2026 Yole. Todos los derechos reservados.</p>
+        <p>Diseñado con ♥ en Santa Marta</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
